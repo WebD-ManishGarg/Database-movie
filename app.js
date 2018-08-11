@@ -3,6 +3,7 @@ var request = require('request');
 var app = express();
 const port=process.env.PORT||4000;
 app.set('view engine', 'ejs');
+app.use(express.static(__dirname + "/public"));
 
 app.get('/', function(req, res){
     res.render('search');
