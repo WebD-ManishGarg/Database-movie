@@ -1,6 +1,7 @@
 var express = require('express');
 var request = require('request');
 var app = express();
+const port=process.env.PORT||4000;
 app.set('view engine', 'ejs');
 
 app.get('/', function(req, res){
@@ -21,6 +22,6 @@ app.get('/results', function(req, res){
 });
 });
 
- app.listen(4000, function(){
-     console.log('Movie app started on port: 4000');
+ app.listen(port, function(){
+     console.log(`Movie app started on port: ${port}`);
  });
