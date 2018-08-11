@@ -1,8 +1,36 @@
 h1{
-  color:red;
+  color:white;
   font-size: 80px;
-}
-body{
-  /* background: url(/img/Background_3.jpg); */
 
 }
+.below{
+  margin-top: 200px;
+}
+body{
+  background: linear-gradient(to right, #ff0099, #493240);
+
+}
+#sub1{
+  margin-top: 30px;
+}
+#sub{
+  margin-top: 130px;
+}
+h4{
+  font-size: 15px;
+  color:white;
+}
+.h4below{
+  margin-top: 70px;
+
+}
+ .form{
+   border: 2px solid #99f2c8;
+   border-radius: 10%;
+   margin-top: 170px;
+   padding: 20px;
+   width:80%;
+   height:70%;
+   margin-left: 100px;
+   background: teal;
+ }
